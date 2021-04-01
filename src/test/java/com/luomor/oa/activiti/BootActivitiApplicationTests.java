@@ -67,9 +67,11 @@ public class BootActivitiApplicationTests {
 		securityUtil.logInAs("salaboy");
 		try {
 			Deployment deployment = null;
-			InputStream in = new FileInputStream(new File("C:\\Users\\飞牛\\git\\SpringBoot2_Activiti7\\src\\main\\resources\\processes\\leaveProcess.zip"));
+			String userDir = System.getProperty("user.dir");
+			System.out.println(userDir);
+			InputStream in = new FileInputStream(new File(userDir + "/docs/csaf.bpmn.zip"));
 			ZipInputStream zipInputStream = new ZipInputStream(in);
-			deployment = repositoryService.createDeployment().name("请假流程2")
+			deployment = repositoryService.createDeployment().name("有条件固化申请单")
 					// 指定zip格式的文件完成部署
 					.addZipInputStream(zipInputStream).deploy();// 完成部署
 			zipInputStream.close();
