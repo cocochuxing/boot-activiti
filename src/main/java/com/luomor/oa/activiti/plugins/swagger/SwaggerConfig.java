@@ -15,7 +15,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 /**
  * @ClassName: OrderState
  * @Description: TODO(swagger配置)
- * @author flying-cattle
+ * @author luomor-oa
  * @date 2019年12月19日
  */
 @EnableSwagger2
@@ -35,9 +35,9 @@ public class SwaggerConfig {
 	}
 
 	private ApiInfo apiInfo() {
-		return new ApiInfoBuilder().title("工作流API").description("flying-cattle")
+		return new ApiInfoBuilder().title("工作流API").description("luomor-oa")
 				// 作者信息
-				.contact(new Contact("flying-cattle", "https://my.oschina.net/bianxin", "695429818@qq.com"))
+				.contact(new Contact("luomor-oa", "https://github.com/zhangchunsheng", "1097692918@qq.com"))
 				.version("1.0.0").build();
 	}
 }
