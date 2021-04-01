@@ -5,9 +5,9 @@ spring:
     db-history-used: true
     check-process-definitions: false # 自动部署验证设置:true-开启（默认）、false-关闭
   datasource:
-    url: jdbc:mysql://172.16.10.79:3306/flying_cattle?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC&nullCatalogMeansCurrent=true
-    username: root
-    password: pwd2020
+    url: jdbc:mysql://127.0.0.1:3306/luomor_oa?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC&nullCatalogMeansCurrent=true
+    username: luomor_oa
+    password: luomor_oa
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
     initialization-mode: always
