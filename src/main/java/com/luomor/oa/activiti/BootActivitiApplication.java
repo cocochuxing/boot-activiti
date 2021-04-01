@@ -1,4 +1,4 @@
-package com.flying.cattle.activiti;
+package com.luomor.oa.activiti;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

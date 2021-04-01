@@ -4,7 +4,7 @@
  * Copyright(c) 2018 BianPeng Co. Ltd.
  * All right reserved.
  */
-package com.flying.cattle.activiti.entity;
+package com.luomor.oa.activiti.entity;
 
 import java.io.Serializable;
 import java.net.ConnectException;

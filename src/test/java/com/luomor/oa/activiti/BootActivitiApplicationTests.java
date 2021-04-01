@@ -1,4 +1,4 @@
-package com.flying.cattle.activiti;
+package com.luomor.oa.activiti;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -22,7 +22,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.flying.cattle.activiti.config.SecurityUtil;
+import com.luomor.oa.activiti.config.SecurityUtil;
 
 /**
  * activiti7

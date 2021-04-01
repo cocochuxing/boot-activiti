@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.flying.cattle.activiti.config;
+package com.luomor.oa.activiti.config;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

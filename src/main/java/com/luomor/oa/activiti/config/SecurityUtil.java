@@ -1,4 +1,4 @@
-package com.flying.cattle.activiti.config;
+package com.luomor.oa.activiti.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;

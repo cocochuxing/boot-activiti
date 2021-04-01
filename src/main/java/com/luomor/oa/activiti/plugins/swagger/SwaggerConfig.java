@@ -1,4 +1,4 @@
-package com.flying.cattle.activiti.plugins.swagger;
+package com.luomor.oa.activiti.plugins.swagger;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -30,7 +30,7 @@ public class SwaggerConfig {
 		return new Docket(DocumentationType.SWAGGER_2).apiInfo(apiInfo())
 				// 是否开启
 				.enable(swaggerEnabled).select()
-				.apis(RequestHandlerSelectors.basePackage("com.flying.cattle.activiti.controller")).paths(PathSelectors.any())
+				.apis(RequestHandlerSelectors.basePackage("com.luomor.oa.activiti.controller")).paths(PathSelectors.any())
 				.build();
 	}
 
